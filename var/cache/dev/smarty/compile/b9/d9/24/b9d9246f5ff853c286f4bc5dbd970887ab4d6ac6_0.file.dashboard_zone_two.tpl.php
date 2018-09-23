@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 15:56:09
+/* Smarty version 3.1.32, created on 2018-09-10 19:02:46
   from 'D:\xampp\htdocs\lubricentro\modules\dashproducts\views\templates\hook\dashboard_zone_two.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96be497e6170_28036539',
+  'unifunc' => 'content_5b96ea064b3473_03114629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b9d9246f5ff853c286f4bc5dbd970887ab4d6ac6' => 
     array (
       0 => 'D:\\xampp\\htdocs\\lubricentro\\modules\\dashproducts\\views\\templates\\hook\\dashboard_zone_two.tpl',
-      1 => 1512735941,
+      1 => 1536616934,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b96be497e6170_28036539 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b96ea064b3473_03114629 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section id="dashproducts" class="panel widget <?php if ($_smarty_tpl->tpl_vars['allow_push']->value) {?> allow_push<?php }?>">
 	<header class="panel-heading">
@@ -95,9 +95,9 @@ function content_5b96be497e6170_28036539 (Smarty_Internal_Template $_smarty_tpl)
 					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Top %d products','sprintf'=>intval($_smarty_tpl->tpl_vars['DASHPRODUCT_NBR_SHOW_BEST_SELLER']->value),'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
 
 					<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"From",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_from']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_from']->value,'htmlall','UTF-8' ));?>
  <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"to",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_to']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_to']->value,'htmlall','UTF-8' ));?>
 </span>
 				</h3>
 				<div class="table-responsive">
@@ -112,9 +112,9 @@ function content_5b96be497e6170_28036539 (Smarty_Internal_Template $_smarty_tpl)
 					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"Most Viewed",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
 
 					<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"From",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_from']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_from']->value,'htmlall','UTF-8' ));?>
  <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"to",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_to']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_to']->value,'htmlall','UTF-8' ));?>
 </span>
 				</h3>
 				<div class="table-responsive">
@@ -129,9 +129,9 @@ function content_5b96be497e6170_28036539 (Smarty_Internal_Template $_smarty_tpl)
 					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Top %d most search terms','sprintf'=>intval($_smarty_tpl->tpl_vars['DASHPRODUCT_NBR_SHOW_TOP_SEARCH']->value),'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
 
 					<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"From",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_from']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_from']->value,'htmlall','UTF-8' ));?>
  <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>"to",'d'=>'Modules.Dashproducts.Admin'),$_smarty_tpl ) );?>
- <?php echo $_smarty_tpl->tpl_vars['date_to']->value;?>
+ <?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['date_to']->value,'htmlall','UTF-8' ));?>
 </span>
 				</h3>
 				<div class="table-responsive">
