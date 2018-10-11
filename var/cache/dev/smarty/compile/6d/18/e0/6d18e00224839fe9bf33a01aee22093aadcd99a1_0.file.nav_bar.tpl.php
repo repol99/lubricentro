@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 17:43:12
+/* Smarty version 3.1.32, created on 2018-09-27 22:58:18
   from 'D:\xampp\htdocs\lubricentro\admin693fllnfl\themes\new-theme\template\components\layout\nav_bar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96d7605ee5e6_37198615',
+  'unifunc' => 'content_5bad8abacd6629_72011256',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b96d7605ee5e6_37198615 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bad8abacd6629_72011256 (Smarty_Internal_Template $_smarty_tpl) {
 ?><nav class="nav-bar d-none d-md-block">
   <span class="menu-collapse">
     <i class="material-icons">chevron_left</i>

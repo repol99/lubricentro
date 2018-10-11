@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 18:17:33
+/* Smarty version 3.1.32, created on 2018-09-27 22:56:42
   from 'D:\xampp\htdocs\lubricentro\modules\ps_themecusto\views\templates\admin\controllers\configuration\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96df6d8db411_45546190',
+  'unifunc' => 'content_5bad8a5ae3cf11_91027193',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '88b2fe489cb086f590a0efef8573684c44a73027' => 
     array (
       0 => 'D:\\xampp\\htdocs\\lubricentro\\modules\\ps_themecusto\\views\\templates\\admin\\controllers\\configuration\\index.tpl',
-      1 => 1531907606,
+      1 => 1537913347,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./elem/modal.tpl' => 1,
   ),
 ),false)) {
-function content_5b96df6d8db411_45546190 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bad8a5ae3cf11_91027193 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="psthemecusto">
     <?php if ($_smarty_tpl->tpl_vars['is_ps_ready']->value) {?>

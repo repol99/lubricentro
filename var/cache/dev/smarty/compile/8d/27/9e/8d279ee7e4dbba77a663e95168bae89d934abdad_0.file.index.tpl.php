@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 18:20:06
+/* Smarty version 3.1.32, created on 2018-09-27 22:56:40
   from 'D:\xampp\htdocs\lubricentro\modules\ps_themecusto\views\templates\admin\controllers\advanced\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96e0061b00a8_15736873',
+  'unifunc' => 'content_5bad8a58952386_18255019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8d279ee7e4dbba77a663e95168bae89d934abdad' => 
     array (
       0 => 'D:\\xampp\\htdocs\\lubricentro\\modules\\ps_themecusto\\views\\templates\\admin\\controllers\\advanced\\index.tpl',
-      1 => 1531907606,
+      1 => 1537913347,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./elem/modal.tpl' => 1,
   ),
 ),false)) {
-function content_5b96e0061b00a8_15736873 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bad8a58952386_18255019 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="psthemecusto">
     <div class="panel col-lg-12">
@@ -119,8 +119,6 @@ reupload.png"/>
                 <p class="alert-text"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'By using this method you can override the CSS and html of your theme, and add analytics tags.','mod'=>'ps_themecusto'),$_smarty_tpl ) );?>
 </p>
             <?php }?>
-            <p class="alert-text"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Make sure you zip your edited theme files directly to the root of your child theme\'s folder before uploading it.','mod'=>'ps_themecusto'),$_smarty_tpl ) );?>
-</p>
             <p class="alert-text"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Once uploaded, the child theme will be available in your Theme & Logo section','mod'=>'ps_themecusto'),$_smarty_tpl ) );?>
 </p>
         </div>

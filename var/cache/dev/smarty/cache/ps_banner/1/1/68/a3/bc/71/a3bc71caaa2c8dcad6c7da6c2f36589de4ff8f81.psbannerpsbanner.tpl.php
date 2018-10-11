@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 18:14:32
+/* Smarty version 3.1.32, created on 2018-09-27 22:55:59
   from 'module:psbannerpsbanner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96deb8691c25_48124964',
+  'unifunc' => 'content_5bad8a2f97a509_56272659',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_5b96deb8691c25_48124964 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bad8a2f97a509_56272659 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin D:\xampp\htdocs\lubricentro/themes/classic/modules/ps_banner/ps_banner.tpl --><a class="banner" href="http://localhost/lubricentro/" title="">
       <img src="http://localhost/lubricentro/modules/ps_banner/img/sale70.png" alt="" title="" class="img-fluid">
   </a>

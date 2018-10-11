@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-09-10 18:49:11
+/* Smarty version 3.1.32, created on 2018-09-27 22:57:45
   from 'D:\xampp\htdocs\lubricentro\admin693fllnfl\themes\default\template\controllers\themes_catalog\content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b96e6d7795557_20758469',
+  'unifunc' => 'content_5bad8a994f7791_57262219',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b96e6d7795557_20758469 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5bad8a994f7791_57262219 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['display_addons_content']->value) {?>
 	<?php echo $_smarty_tpl->tpl_vars['addons_content']->value;?>
 
